@@ -1,0 +1,72 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* Container */
+.review-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top Banner */
+.top-banner {
+  background-color: #5b452a;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.top-banner h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.top-banner h2 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3rem;
+  color: #f5d97e;
+  margin: 10px 0;
+}
+
+/* Bottom Review */
+.bottom-review {
+  background-color: #f6f6f6;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.bottom-review h3 {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  font-family: 'Georgia', serif;
+}
+
+.review-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 25%;
+  object-fit: cover;
+}
+
+.review-text {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
